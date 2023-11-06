@@ -7,7 +7,7 @@ public class BeefBurguer : Burguer
 
     public override void Prepare()
     {
-        //... implementation
+        //... único lugar do código que sabe como um Hamburguer de Carne é feito
     }
 }
 
@@ -18,6 +18,6 @@ public class VeggieBurguer : Burguer
 
     public override void Prepare()
     {
-        //... implementation
+        //... único lugar do código que sabe como um Hamburguer Veggie é feito
     }
 }
