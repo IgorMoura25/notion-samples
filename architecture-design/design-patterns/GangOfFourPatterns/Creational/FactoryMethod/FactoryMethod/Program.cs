@@ -1,12 +1,16 @@
 ﻿using FactoryMethod;
 
-// Passando a responsabilidade ao cliente
-// de chamar o ConcreteCreator (Subclasse) que fará a criação do Burguer
-var beefRestaurant = new BeefBurguerRestaurant();
-var veggieRestaurant = new VeggieBurguerRestaurant();
+Console.WriteLine("Client: I'm not aware of the SeaLogistics class or the LandLogistics class, but it still works.\n");
+ClientCode(new SeaLogistics());
+ClientCode(new LandLogistics());
 
-// Chamando o método da Creator (Restaurant) que por sua vez
-// chama o método CreateBurguer da ConcreteCreator (BeefRestaurant)
-var test = beefRestaurant.OrderBurguer();
 
-var test2 = veggieRestaurant.OrderBurguer();
+// O código do cliente trabalha com a instância de um Concrete Creator através da Interface Creator
+// Enquanto o cliente continuar trabalhando com o Creator,
+// você pode passar qualquer ConcreteCreator Subclass que vai funcionar
+static void ClientCode(Logistics creator)
+{
+    // ...
+    Console.WriteLine(creator.PlanDelivery());
+    // ...
+}
