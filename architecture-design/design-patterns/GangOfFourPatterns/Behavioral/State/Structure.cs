@@ -44,7 +44,7 @@ public abstract class State
 
     public void SetContext(Context context)
     {
-        this._context = context;
+        _context = context;
     }
 
     public abstract void ApertarBotão();
