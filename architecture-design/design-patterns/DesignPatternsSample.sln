@@ -23,7 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{AC94FC55-C20F-4E63-909E-A8E7610DFA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "GangOfFourPatterns\Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{7A53E04C-5FCF-4463-B629-9096500A151D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "GangOfFourPatterns\Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{7A53E04C-5FCF-4463-B629-9096500A151D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{CFF273E3-3319-444E-A767-CCEEB8D8B62E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "GangOfFourPatterns\Behavioral\Strategy\Strategy.csproj", "{EE199266-06AD-4D99-9A9B-2159D2248FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{7A53E04C-5FCF-4463-B629-9096500A151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A53E04C-5FCF-4463-B629-9096500A151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A53E04C-5FCF-4463-B629-9096500A151D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE199266-06AD-4D99-9A9B-2159D2248FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE199266-06AD-4D99-9A9B-2159D2248FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE199266-06AD-4D99-9A9B-2159D2248FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE199266-06AD-4D99-9A9B-2159D2248FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,8 @@ Global
 		{7DCFC4E4-34ED-4429-8F3E-F6343589E4DD} = {79008938-E10D-401F-AD7D-430151056FCE}
 		{AC94FC55-C20F-4E63-909E-A8E7610DFA18} = {7DCFC4E4-34ED-4429-8F3E-F6343589E4DD}
 		{7A53E04C-5FCF-4463-B629-9096500A151D} = {AC94FC55-C20F-4E63-909E-A8E7610DFA18}
+		{CFF273E3-3319-444E-A767-CCEEB8D8B62E} = {7DCFC4E4-34ED-4429-8F3E-F6343589E4DD}
+		{EE199266-06AD-4D99-9A9B-2159D2248FA3} = {CFF273E3-3319-444E-A767-CCEEB8D8B62E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D74B0EBD-6818-4F79-87AF-ABB390CD272E}
