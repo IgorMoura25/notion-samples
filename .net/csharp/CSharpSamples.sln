@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTasks", "AsyncTasks\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockMutex", "LockMutex\LockMutex.csproj", "{D34DBE29-C954-4F01-932F-0CE19A8330B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTasksLockCancellationToken", "AsyncTasksLockCancellationToken\AsyncTasksLockCancellationToken.csproj", "{ED21AFAA-F7AC-4A3C-8EAA-B13F44D673CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{D34DBE29-C954-4F01-932F-0CE19A8330B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D34DBE29-C954-4F01-932F-0CE19A8330B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D34DBE29-C954-4F01-932F-0CE19A8330B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED21AFAA-F7AC-4A3C-8EAA-B13F44D673CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED21AFAA-F7AC-4A3C-8EAA-B13F44D673CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED21AFAA-F7AC-4A3C-8EAA-B13F44D673CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED21AFAA-F7AC-4A3C-8EAA-B13F44D673CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8CD2C3C6-532D-4DC6-82A6-17B0B7B069C3} = {E5B0DBA5-C85E-4F2F-8068-4D0481D0AC02}
 		{D34DBE29-C954-4F01-932F-0CE19A8330B6} = {E5B0DBA5-C85E-4F2F-8068-4D0481D0AC02}
+		{ED21AFAA-F7AC-4A3C-8EAA-B13F44D673CE} = {E5B0DBA5-C85E-4F2F-8068-4D0481D0AC02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EE2DDDF-E3CC-40EA-B1F7-B4EC78C11B0E}
